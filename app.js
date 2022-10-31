@@ -20,6 +20,8 @@ var createNewTaskElement=function(taskString){
     var listItem=document.createElement("li");
 
     //input (checkbox)
+    listItem.className="list-el";
+
     var checkBox=document.createElement("input");//checkbx
     //label
     var label=document.createElement("label");//label
@@ -41,9 +43,9 @@ var createNewTaskElement=function(taskString){
     editInput.className="task";
 
     editButton.innerText="Edit"; //innerText encodes special characters, HTML does not.
-    editButton.className="edit";
+    editButton.className="edit input button";
 
-    deleteButton.className="delete";
+    deleteButton.className="delete input button";
     deleteButtonImg.src='./remove.svg';
     deleteButton.appendChild(deleteButtonImg);
 
