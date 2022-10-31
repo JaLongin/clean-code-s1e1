@@ -1,28 +1,28 @@
 /* Basic Style */
-body {
+.main-wrap {
   background-color: #f8f8f8;
   color: #333;
   font-family: lato, sans-serif;
 }
-.aaa {
+.matrix-expl {
   width: 500px;
   margin: 0 auto;
   display: block;
   text-align: right;
 }
-.aaa img {
+.matrix-expl img {
   width: 100%;
 }
-.aaa .more-inf {
+.matrix-expl .more-inf {
   font-family: fantasy, cursive;
 }
 
 @media (max-width:768px) {
-  .aaa { 
+  .matrix-expl { 
     text-align: center;
   }
 }
-.centered-main-page-element {
+.main {
   display: block;
   width: 500px;
   margin: 0 auto 0;
@@ -32,7 +32,7 @@ body {
   display: inline-block;
   flex-grow: 1
 }
-.task-row-wrapper {
+.task-row {
   display: flex;
 }
 ul {
